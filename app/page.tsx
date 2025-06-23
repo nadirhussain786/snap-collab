@@ -1,4 +1,6 @@
+import AboutSection from "./components/AboutSection";
 import { FeatureSection } from "./components/FeatureSection";
+import Footer from "./components/Footer";
 import HeroSnapCollab from "./components/HeroSnapCollab";
 import NavbarSnapCollab from "./components/NavbarSnapCollab";
 
@@ -8,6 +10,8 @@ export default function Home() {
       <NavbarSnapCollab />
       <HeroSnapCollab />
       <FeatureSection />
+      <AboutSection />
+      <Footer />
     </main>
   );
 }
